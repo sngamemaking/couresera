@@ -1,0 +1,47 @@
+nav ul{
+	padding:0px;
+	margin:0px;
+list-style-type:none;
+}
+
+nav li{
+	display:inline;
+	width:1000px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #CCCCCC;
+	text-align:center;
+	line-height:40px;
+}
+
+nav li:hover{
+	background-color:#3388BB;
+}
+
+nav li a{
+	text-decoration:none;
+	
+}
+table{
+	 WIDTH:50%;
+	 color: blue;
+	 background-color: #FFCCCC;
+	 text-align:center;
+	
+}
+form {
+	border-right:1px solid #CCCCCC;
+	line-height:0px
+	
+}
+
+h1 {
+	color: white;
+	width:1000px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	background-color: blue;
+	border: outset;
+}

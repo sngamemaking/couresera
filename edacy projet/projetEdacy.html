@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel="stylesheet" href="colorer.css" type="text/css" media="all" />
+<title>projet Edacy</title>
+
+</head>
+
+<body text="blue" bgcolor="">
+<nav>
+<ul>
+<li><a href="">Contact</a></li>
+<li><a href="">Mes amis</a></li>
+<li><a href="">Mes favoris</a></li>
+<li><a href="">A propos</a></li>
+</ul>
+<center><p><h1>My followers</center></p></h1>
+</nav>
+
+           <CENTER>
+		   <form method="" action="">
+		<p>
+		<label>Nom :</label>
+		<input type="text" name="nom" id="nom" />
+	</p>
+	
+	<p>
+		<label>Prénom :</label>
+		<input type="text" name="prenom" id="prenom"  />
+	</p>
+	
+	<p>
+		<label>Email :</label>
+		<input type="email" name="email" id="email" />
+	</p>
+	
+	<p>
+		<label>Telephone :</label>
+		<input type="number" name="telephone" id="telephone" />
+	</p>
+	
+	<p>
+			<input type="button" onclick="ajouterLigne();" value="Enregistrer"/>
+
+	</p>
+</form>
+</CENTER>
+
+
+<CENTER>
+<table id="tableau" border="1">
+	<thead>
+		<tr>
+			<th>Prénom</th>
+			<th>Nom</th>
+			<th>Email</th>
+			<th>Telephone</th>
+			<th>Suppimer</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Jeanne Monique</td>
+			<td>MATY</td>
+			<td>jeanemonique@gmail.com</td>
+			<td>782419311</td><td><input type="button" onclick="supprimer" value="supprimer"/></td>
+		</tr>
+		<tr>
+			<td>Salomon Albert</td>
+			<td>DIEME</td>
+			<td>salomonlife@gmail.com</td>
+			<td>771503248</td><td><input type="button" onclick="supprimer" value="supprimer"/></td>
+		</tr>
+		<tr>
+			<td>Jean Dib</td>
+			<td>NDIAYE</td>
+			<td>jeandib@gmail</td>
+			<td>777099887</td><td><input type="button" onclick="supprimer" value="supprimer"/></td>
+		</tr>
+		   
+	</tbody>
+</table>
+</CENTER>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
