@@ -25,14 +25,17 @@ nav li a{
 }
 table{
 	 WIDTH:50%;
-	 color: blue;
-	 background-color: #FFCCCC;
+	 color: black;
+	 background-color: yellow;
 	 text-align:center;
 	
 }
 form {
-	border-right:1px solid #CCCCCC;
-	line-height:0px
+	 line-height:0px;
+	 ;
+	 
+	 
+	
 	
 }
 
@@ -44,4 +47,24 @@ h1 {
 	padding:0px;
 	background-color: blue;
 	border: outset;
+	
+}
+h6 {
+	color:white;
+	border:hidden;
+	background-color: blue;
+	height: 20px;
+	text-align:center;
+	width:;
+	margin-top: 200px; 
+}
+header {
+	text-align:center;
+	color: black;
+	border:dotted;
+	
+	
+}
+.bouton{
+	background-color:green;
 }
